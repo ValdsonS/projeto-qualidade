@@ -1,0 +1,5 @@
+JUnit é composto por 3 por vários módulos de 3 sub projetos diferentes. São eles: JUnit Plataform, Jupiter e Vintage.
+JUnit Plataform é um servidor criado para testar interfaces na JVM, ele também define TesteEngine para desenvolver um teste de framework que roda na plataforma, além disso, a plataforma cria um console launcher para rodar a plataforma de uma linha de comandos junto de JUnit Platform Suite Engine executar um testes personalizados usando um ou mais tests engine na plataforma.O suporte da JUnit existe para as IDEs mais populares (IntelliJ, Eclipse, NetBeans e Visual Studio Code.
+JUnit Jupiter é uma combinação de modelo de extensão e modelo de extensão para escrever testes em JUnit 5, O sub projetos do jupiter fornece o TestEngine para rodar  testes baseado em jupiter na plataforma.
+JUnite Vintage fornece o TestEngine para rodar JUnit 3 e 4 baseado em teste da plataforma. Requerer JUnit 4.12 ou maior presente na classe ou módulo do pacote. 
+O JUnit 5 requer java 8.0 (ou posterior) para funcionar, contudo é possível rodar o JUnit 5 compilado em versões anteriores do JDK.. 
